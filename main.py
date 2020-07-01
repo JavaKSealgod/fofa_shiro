@@ -142,7 +142,6 @@ def scan():
 						r_shiro_https = requests.get(url = url , timeout = 5 ,verify = False , headers = data)
 						if 'rememberMe' in r_shiro_https.headers['Set-Cookie']:
 							print 'this is shiro ----> '+str(url)
-						else:
 							break
 					except Exception as e:
 						pass
@@ -151,7 +150,6 @@ def scan():
 						r_shiro_http = requests.get(url = url ,timeout =5 ,verify = False , headers = data)
 						if 'rememberMe' in r_shiro_http.headers['Set-Cookie']:
 							print 'this is shiro ----> '+str(url)
-						else:
 							break
 					except Exception as e:
 						pass
