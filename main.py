@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-# code by Benl0xe 
-# email:liukang02@qianxin.com
+
 import requests
 import json
 import threading
